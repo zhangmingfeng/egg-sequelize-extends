@@ -41,4 +41,23 @@ exports.sequelize = {
 }
 ```
 
+- 支持在model目录里按模块目录定义model，如下例子：
+
+- `app/model/user/account.js`
+
+``` js
+module.exports = (app) => {
+    return app.model.define('account', {...}, {
+        tableName: 'account'
+    });
+}
+
+```
+
+- `controller or service`
+
+```js
+await this.ctx.model.Account.findById(100);
+```
+
 for examples, please visit https://github.com/eggjs/egg-sequelize.
