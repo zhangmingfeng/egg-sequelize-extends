@@ -1,0 +1,41 @@
+{
+  "author": "zhangmingfeng",
+  "bundleDependencies": [
+    "egg-sequelize",
+    "mysql2"
+  ],
+  "dependencies": {
+    "egg-sequelize": "^4.1.0",
+    "mysql2": "^1.6.1",
+    "egg-logger": "^2.0.1"
+  },
+  "deprecated": false,
+  "description": "egg sequelize plugin extends",
+  "eggPlugin": {
+    "name": "sequelize"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "app",
+    "config",
+    "agent.js",
+    "lib",
+    "app.js"
+  ],
+  "keywords": [
+    "egg",
+    "sequelize",
+    "extends",
+    "egg-plugin",
+    "eggPlugin"
+  ],
+  "license": "MIT",
+  "name": "egg-sequelize-extends",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangmingfeng/egg-sequelize-extends.git"
+  },
+  "version": "1.0.0"
+}
