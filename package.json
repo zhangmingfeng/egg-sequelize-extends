@@ -24,7 +24,8 @@
     "config",
     "agent.js",
     "lib",
-    "app.js"
+    "app.js",
+    "extends"
   ],
   "keywords": [
     "egg",
@@ -39,5 +40,5 @@
     "type": "git",
     "url": "git+https://github.com/zhangmingfeng/egg-sequelize-extends.git"
   },
-  "version": "1.0.3"
+  "version": "1.0.5"
 }
