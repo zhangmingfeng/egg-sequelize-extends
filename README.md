@@ -12,7 +12,7 @@ $ npm i --save egg-sequelize-extends
 ## Usage & configuration
 
 - `config.default.js`
-配置文件和egg-sequelize一致，只是在它的基础上增加了日志的配置，可以自定义日志打印的级别和文件（egg-sequelize插件的默认打印的日志是info，而且不能调整，不能指定打印到其他文件里，只能关闭），默认打印的位置是appBaseDir/logs/sequelize-sql.log
+配置文件和egg-sequelize一致，只是在它的基础上增加了日志的配置，可以自定义日志打印的级别和文件（egg-sequelize插件的默认打印的日志是info，而且不能调整，不能指定打印到其他文件里，只能关闭），默认打印的位置是appBaseDir/logs/sequelize-sql.log, 另外增加了comment参数支持（原egg-sequelize不支持）
 
 ```js
 exports.sequelize = {
