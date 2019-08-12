@@ -9,7 +9,8 @@
     "egg-logger": "^2.0.1",
     "egg-sequelize": "^4.1.0",
     "lodash": "^4.17.11",
-    "mysql2": "^1.6.1"
+    "mysql2": "^1.6.1",
+    "moment": "^2.24.0"
   },
   "deprecated": false,
   "description": "egg sequelize plugin extends",
@@ -40,5 +41,5 @@
     "type": "git",
     "url": "git+https://github.com/zhangmingfeng/egg-sequelize-extends.git"
   },
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
