@@ -41,5 +41,5 @@
     "type": "git",
     "url": "git+https://github.com/zhangmingfeng/egg-sequelize-extends.git"
   },
-  "version": "1.0.6"
+  "version": "1.0.7"
 }
